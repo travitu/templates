@@ -9,13 +9,13 @@ import UIKit
 
 class CustomView: UIView {
 
-    override init (frame : CGRect) {
-        super.init(frame : frame)
+    override init (frame: CGRect) {
+        super.init(frame: frame)
         otherInitialize()
     }
     
     convenience init () {
-        self.init(frame:CGRectZero)
+        self.init(frame: CGRectZero)
     }
     
     required init(coder aDecoder: NSCoder) {
